@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42680B3617D98EA600DD6DB8 /* Wilhelm114.png in Resources */ = {isa = PBXBuildFile; fileRef = 42680B3517D98EA600DD6DB8 /* Wilhelm114.png */; };
+		42680B3817D98EAA00DD6DB8 /* Wilhelm57.png in Resources */ = {isa = PBXBuildFile; fileRef = 42680B3717D98EAA00DD6DB8 /* Wilhelm57.png */; };
 		42ADF42617D975D6007E02A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42ADF42517D975D6007E02A2 /* UIKit.framework */; };
 		42ADF42817D975D6007E02A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42ADF42717D975D6007E02A2 /* Foundation.framework */; };
 		42ADF42A17D975D6007E02A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42ADF42917D975D6007E02A2 /* CoreGraphics.framework */; };
@@ -18,9 +20,14 @@
 		42ADF43C17D975D6007E02A2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42ADF43B17D975D6007E02A2 /* Default-568h@2x.png */; };
 		42ADF43F17D975D6007E02A2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42ADF43D17D975D6007E02A2 /* MainStoryboard.storyboard */; };
 		42ADF44217D975D6007E02A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ADF44117D975D6007E02A2 /* ViewController.m */; };
+		42D2E55117D9812A005C6FF0 /* WilhelmScream.wav in Resources */ = {isa = PBXBuildFile; fileRef = 42D2E55017D9812A005C6FF0 /* WilhelmScream.wav */; };
+		42D2E55417D984F4005C6FF0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42D2E55217D984F4005C6FF0 /* AVFoundation.framework */; };
+		42D2E55517D984F4005C6FF0 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42D2E55317D984F4005C6FF0 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42680B3517D98EA600DD6DB8 /* Wilhelm114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wilhelm114.png; sourceTree = "<group>"; };
+		42680B3717D98EAA00DD6DB8 /* Wilhelm57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wilhelm57.png; sourceTree = "<group>"; };
 		42ADF42217D975D6007E02A2 /* FallingWilhelm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FallingWilhelm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42ADF42517D975D6007E02A2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		42ADF42717D975D6007E02A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +44,9 @@
 		42ADF43E17D975D6007E02A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		42ADF44017D975D6007E02A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		42ADF44117D975D6007E02A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		42D2E55017D9812A005C6FF0 /* WilhelmScream.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = WilhelmScream.wav; sourceTree = "<group>"; };
+		42D2E55217D984F4005C6FF0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		42D2E55317D984F4005C6FF0 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +54,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42D2E55417D984F4005C6FF0 /* AVFoundation.framework in Frameworks */,
+				42D2E55517D984F4005C6FF0 /* CoreMotion.framework in Frameworks */,
 				42ADF42617D975D6007E02A2 /* UIKit.framework in Frameworks */,
 				42ADF42817D975D6007E02A2 /* Foundation.framework in Frameworks */,
 				42ADF42A17D975D6007E02A2 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +68,10 @@
 		42ADF41917D975D6007E02A2 = {
 			isa = PBXGroup;
 			children = (
+				42680B3717D98EAA00DD6DB8 /* Wilhelm57.png */,
+				42680B3517D98EA600DD6DB8 /* Wilhelm114.png */,
+				42D2E55217D984F4005C6FF0 /* AVFoundation.framework */,
+				42D2E55317D984F4005C6FF0 /* CoreMotion.framework */,
 				42ADF42B17D975D6007E02A2 /* FallingWilhelm */,
 				42ADF42417D975D6007E02A2 /* Frameworks */,
 				42ADF42317D975D6007E02A2 /* Products */,
@@ -88,6 +104,7 @@
 				42ADF43D17D975D6007E02A2 /* MainStoryboard.storyboard */,
 				42ADF44017D975D6007E02A2 /* ViewController.h */,
 				42ADF44117D975D6007E02A2 /* ViewController.m */,
+				42D2E55017D9812A005C6FF0 /* WilhelmScream.wav */,
 				42ADF42C17D975D6007E02A2 /* Supporting Files */,
 			);
 			path = FallingWilhelm;
@@ -110,9 +127,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		42ADF42117D975D6007E02A2 /* FallingWilhelm */ = {
+		42ADF42117D975D6007E02A2 /* Wilhelm */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 42ADF44517D975D6007E02A2 /* Build configuration list for PBXNativeTarget "FallingWilhelm" */;
+			buildConfigurationList = 42ADF44517D975D6007E02A2 /* Build configuration list for PBXNativeTarget "Wilhelm" */;
 			buildPhases = (
 				42ADF41E17D975D6007E02A2 /* Sources */,
 				42ADF41F17D975D6007E02A2 /* Frameworks */,
@@ -122,7 +139,7 @@
 			);
 			dependencies = (
 			);
-			name = FallingWilhelm;
+			name = Wilhelm;
 			productName = FallingWilhelm;
 			productReference = 42ADF42217D975D6007E02A2 /* FallingWilhelm.app */;
 			productType = "com.apple.product-type.application";
@@ -148,7 +165,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				42ADF42117D975D6007E02A2 /* FallingWilhelm */,
+				42ADF42117D975D6007E02A2 /* Wilhelm */,
 			);
 		};
 /* End PBXProject section */
@@ -163,6 +180,9 @@
 				42ADF43A17D975D6007E02A2 /* Default@2x.png in Resources */,
 				42ADF43C17D975D6007E02A2 /* Default-568h@2x.png in Resources */,
 				42ADF43F17D975D6007E02A2 /* MainStoryboard.storyboard in Resources */,
+				42D2E55117D9812A005C6FF0 /* WilhelmScream.wav in Resources */,
+				42680B3617D98EA600DD6DB8 /* Wilhelm114.png in Resources */,
+				42680B3817D98EAA00DD6DB8 /* Wilhelm57.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +281,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FallingWilhelm/FallingWilhelm-Prefix.pch";
 				INFOPLIST_FILE = "FallingWilhelm/FallingWilhelm-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -272,6 +293,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FallingWilhelm/FallingWilhelm-Prefix.pch";
 				INFOPLIST_FILE = "FallingWilhelm/FallingWilhelm-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -289,13 +311,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		42ADF44517D975D6007E02A2 /* Build configuration list for PBXNativeTarget "FallingWilhelm" */ = {
+		42ADF44517D975D6007E02A2 /* Build configuration list for PBXNativeTarget "Wilhelm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				42ADF44617D975D6007E02A2 /* Debug */,
 				42ADF44717D975D6007E02A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
