@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42ADF42617D975D6007E02A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42ADF42517D975D6007E02A2 /* UIKit.framework */; };
+		42ADF42817D975D6007E02A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42ADF42717D975D6007E02A2 /* Foundation.framework */; };
+		42ADF42A17D975D6007E02A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42ADF42917D975D6007E02A2 /* CoreGraphics.framework */; };
+		42ADF43017D975D6007E02A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42ADF42E17D975D6007E02A2 /* InfoPlist.strings */; };
+		42ADF43217D975D6007E02A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ADF43117D975D6007E02A2 /* main.m */; };
+		42ADF43617D975D6007E02A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ADF43517D975D6007E02A2 /* AppDelegate.m */; };
+		42ADF43817D975D6007E02A2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 42ADF43717D975D6007E02A2 /* Default.png */; };
+		42ADF43A17D975D6007E02A2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42ADF43917D975D6007E02A2 /* Default@2x.png */; };
+		42ADF43C17D975D6007E02A2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42ADF43B17D975D6007E02A2 /* Default-568h@2x.png */; };
+		42ADF43F17D975D6007E02A2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42ADF43D17D975D6007E02A2 /* MainStoryboard.storyboard */; };
+		42ADF44217D975D6007E02A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ADF44117D975D6007E02A2 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		42ADF42217D975D6007E02A2 /* FallingWilhelm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FallingWilhelm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42ADF42517D975D6007E02A2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		42ADF42717D975D6007E02A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		42ADF42917D975D6007E02A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		42ADF42D17D975D6007E02A2 /* FallingWilhelm-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FallingWilhelm-Info.plist"; sourceTree = "<group>"; };
+		42ADF42F17D975D6007E02A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		42ADF43117D975D6007E02A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42ADF43317D975D6007E02A2 /* FallingWilhelm-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FallingWilhelm-Prefix.pch"; sourceTree = "<group>"; };
+		42ADF43417D975D6007E02A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		42ADF43517D975D6007E02A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		42ADF43717D975D6007E02A2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		42ADF43917D975D6007E02A2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		42ADF43B17D975D6007E02A2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		42ADF43E17D975D6007E02A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		42ADF44017D975D6007E02A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		42ADF44117D975D6007E02A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42ADF41F17D975D6007E02A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42ADF42617D975D6007E02A2 /* UIKit.framework in Frameworks */,
+				42ADF42817D975D6007E02A2 /* Foundation.framework in Frameworks */,
+				42ADF42A17D975D6007E02A2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42ADF41917D975D6007E02A2 = {
+			isa = PBXGroup;
+			children = (
+				42ADF42B17D975D6007E02A2 /* FallingWilhelm */,
+				42ADF42417D975D6007E02A2 /* Frameworks */,
+				42ADF42317D975D6007E02A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42ADF42317D975D6007E02A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42ADF42217D975D6007E02A2 /* FallingWilhelm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42ADF42417D975D6007E02A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42ADF42517D975D6007E02A2 /* UIKit.framework */,
+				42ADF42717D975D6007E02A2 /* Foundation.framework */,
+				42ADF42917D975D6007E02A2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42ADF42B17D975D6007E02A2 /* FallingWilhelm */ = {
+			isa = PBXGroup;
+			children = (
+				42ADF43417D975D6007E02A2 /* AppDelegate.h */,
+				42ADF43517D975D6007E02A2 /* AppDelegate.m */,
+				42ADF43D17D975D6007E02A2 /* MainStoryboard.storyboard */,
+				42ADF44017D975D6007E02A2 /* ViewController.h */,
+				42ADF44117D975D6007E02A2 /* ViewController.m */,
+				42ADF42C17D975D6007E02A2 /* Supporting Files */,
+			);
+			path = FallingWilhelm;
+			sourceTree = "<group>";
+		};
+		42ADF42C17D975D6007E02A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42ADF42D17D975D6007E02A2 /* FallingWilhelm-Info.plist */,
+				42ADF42E17D975D6007E02A2 /* InfoPlist.strings */,
+				42ADF43117D975D6007E02A2 /* main.m */,
+				42ADF43317D975D6007E02A2 /* FallingWilhelm-Prefix.pch */,
+				42ADF43717D975D6007E02A2 /* Default.png */,
+				42ADF43917D975D6007E02A2 /* Default@2x.png */,
+				42ADF43B17D975D6007E02A2 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42ADF42117D975D6007E02A2 /* FallingWilhelm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42ADF44517D975D6007E02A2 /* Build configuration list for PBXNativeTarget "FallingWilhelm" */;
+			buildPhases = (
+				42ADF41E17D975D6007E02A2 /* Sources */,
+				42ADF41F17D975D6007E02A2 /* Frameworks */,
+				42ADF42017D975D6007E02A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FallingWilhelm;
+			productName = FallingWilhelm;
+			productReference = 42ADF42217D975D6007E02A2 /* FallingWilhelm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42ADF41A17D975D6007E02A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Jera Design LLC";
+			};
+			buildConfigurationList = 42ADF41D17D975D6007E02A2 /* Build configuration list for PBXProject "FallingWilhelm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 42ADF41917D975D6007E02A2;
+			productRefGroup = 42ADF42317D975D6007E02A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42ADF42117D975D6007E02A2 /* FallingWilhelm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42ADF42017D975D6007E02A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42ADF43017D975D6007E02A2 /* InfoPlist.strings in Resources */,
+				42ADF43817D975D6007E02A2 /* Default.png in Resources */,
+				42ADF43A17D975D6007E02A2 /* Default@2x.png in Resources */,
+				42ADF43C17D975D6007E02A2 /* Default-568h@2x.png in Resources */,
+				42ADF43F17D975D6007E02A2 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42ADF41E17D975D6007E02A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42ADF43217D975D6007E02A2 /* main.m in Sources */,
+				42ADF43617D975D6007E02A2 /* AppDelegate.m in Sources */,
+				42ADF44217D975D6007E02A2 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		42ADF42E17D975D6007E02A2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42ADF42F17D975D6007E02A2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		42ADF43D17D975D6007E02A2 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42ADF43E17D975D6007E02A2 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42ADF44317D975D6007E02A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		42ADF44417D975D6007E02A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42ADF44617D975D6007E02A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FallingWilhelm/FallingWilhelm-Prefix.pch";
+				INFOPLIST_FILE = "FallingWilhelm/FallingWilhelm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		42ADF44717D975D6007E02A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FallingWilhelm/FallingWilhelm-Prefix.pch";
+				INFOPLIST_FILE = "FallingWilhelm/FallingWilhelm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42ADF41D17D975D6007E02A2 /* Build configuration list for PBXProject "FallingWilhelm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42ADF44317D975D6007E02A2 /* Debug */,
+				42ADF44417D975D6007E02A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42ADF44517D975D6007E02A2 /* Build configuration list for PBXNativeTarget "FallingWilhelm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42ADF44617D975D6007E02A2 /* Debug */,
+				42ADF44717D975D6007E02A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42ADF41A17D975D6007E02A2 /* Project object */;
+}
