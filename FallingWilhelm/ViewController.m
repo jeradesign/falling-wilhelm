@@ -43,6 +43,7 @@ static float euclidianDist(float x1, float y1, float z1,
     NSURL *url = [[NSBundle mainBundle] URLForResource:@"WilhelmScream" withExtension:@"wav"];
     NSError *error;
     _player = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:&error];
+    [_player prepareToPlay];
     _motionManager = [[CMMotionManager alloc] init];
     _motionManager.accelerometerUpdateInterval = 0.01;
     _operationQueue = [[NSOperationQueue alloc] init];
@@ -74,7 +75,8 @@ static float euclidianDist(float x1, float y1, float z1,
 - (void)stopFalling
 {
     _fallingLabel.text = @"Not Falling";
-    [_player stop];
+    [_player pause];
+    _player.currentTime = 0;
 }
 
 - (void)didReceiveMemoryWarning
